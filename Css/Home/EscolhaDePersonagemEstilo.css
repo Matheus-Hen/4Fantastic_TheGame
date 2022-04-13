@@ -1,0 +1,110 @@
+/* Css sobre o homem elastico */
+.Hero1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hero1:hover {
+    background-image: url("./Imagens/homemElastico.png");
+}
+
+#Button_Elastico {
+    width: 120px;
+    text-align: center;
+}
+
+.IMGElastico {
+    height: 300px;
+    border: 2px;
+    border-color: yellow;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.IMGElastico:hover {
+    visibility: collapse;
+}
+
+/* Css sobre o O Coisa */
+.Hero2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hero2:hover {
+    background-image: url("./Imagens/OCoisa.png");
+}
+
+#Button_OCoisa {
+    width: 120px;
+    text-align: center;
+}
+
+.IMGOCoisa {
+    border: 2px;
+    border-color: yellow;
+    border-style: ridge;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.IMGOCoisa:hover {
+    visibility: collapse;
+}
+
+/* Css sobre a Mulher-Invisivel */
+.Hero3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Button_MulherInvisive {
+    width: 120px;
+    text-align: center;
+}
+
+.IMGMulherInvisivel {
+    border: 2px;
+    border-color: yellow;
+    border-style: ridge;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.IMGMulherInvisivel:hover {
+    visibility: collapse;
+}
+
+/* Css sobre o Tocha-Humana */
+.Hero4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero4:hover {
+    background-image: url("./Imagens/TochaHumana.png");
+    background-repeat: no-repeat;
+}
+
+.IMGTochaHumana {
+    border: 2px;
+    border-color: yellow;
+    border-style: ridge;
+    border-radius: 10px;
+    height: 300px;
+}
+
+#Button_TochaHumana {
+    width: 120px;
+    text-align: center;
+}
+
+.IMGTochaHumana:hover {
+    visibility: collapse;
+}
