@@ -5,8 +5,13 @@
     align-items: center;
 }
 
-.Hero1:hover {
+#sobreElastico:hover {
     background-image: url("./Imagens/homemElastico.png");
+    background-repeat: no-repeat;
+    order: 2px;
+    border-color: yellow;
+    border-style: ridge;
+    border-radius: 10px;    
 }
 
 #Button_Elastico {
@@ -33,8 +38,13 @@
     align-items: center;
 }
 
-.Hero2:hover {
+#sobreOCoisa:hover {
     background-image: url("./Imagens/OCoisa.png");
+    background-repeat: no-repeat;
+    order: 2px;
+    border-color: yellow;
+    border-style: ridge;
+    border-radius: 10px;
 }
 
 #Button_OCoisa {
@@ -79,6 +89,12 @@
     visibility: collapse;
 }
 
+#sobreMulherInvisivel:hover{
+    border: 2px;
+    border-color: yellow;
+    border-style: ridge;
+    border-radius: 10px;
+}
 /* Css sobre o Tocha-Humana */
 .Hero4 {
     display: flex;
@@ -87,9 +103,14 @@
     align-items: center;
 }
 
-.Hero4:hover {
+#sobreTochaHumana:hover , #sobreTochaHumana:active{
     background-image: url("./Imagens/TochaHumana.png");
     background-repeat: no-repeat;
+    border: 2px;
+    border-color: yellow;
+    border-style: ridge;
+    border-radius: 10px;
+    height: 300px;
 }
 
 .IMGTochaHumana {
@@ -105,6 +126,6 @@
     text-align: center;
 }
 
-.IMGTochaHumana:hover {
+.IMGTochaHumana:hover, .IMGTochaHumana:active {
     visibility: collapse;
 }

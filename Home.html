@@ -16,24 +16,30 @@
         <h1 id="Titulo">:The Game</h1>
     </div>
     <div class="corpo_da_pag">
-        <H1 id="Choice">Escolha com qual personagem deseja jogar</H1>
+        <script src="RedirecionaLink.js"></script>
+        <h1 id="Choice">
+            <script src="./User.js"></script>
+            <br>
+            Escolha com qual personagem deseja jogar
+        </h1>
         <div class="Personagens">
             <div class="Hero1">
-                <img src="./Imagens/HomemElasticoNormal.png" class="IMGElastico">
-                <a href="./Fases/HomemElastico/Fase1.html" id="ElasticoBotao"><input type="button" value="Homem-Elastico"
-                        id="Button_Elastico"></a>
+                <div id="sobreElastico"><img src="./Imagens/HomemElasticoNormal.png" class="IMGElastico"></div>
+                <input type="button" value="Senhor Fantastico" id="Button_Elastico"
+                    onclick="window.location.href = './Fases/HomemElastico/Fase1.html'">
             </div>
-            <div class="Hero2"> 
-                <img src="./Imagens/OCoisaVestido.png" class="IMGOCoisa">
-                <a href="Pag1_OCoisa" id="OCoisaBotao"><input type="button" value="O Coisa" id="Button_OCoisa"></a>
+            <div class="Hero2">
+                <div id="sobreOCoisa"><img src="./Imagens/OCoisaVestido.png" class="IMGOCoisa"></div>
+                <a href="Pag1_OCoisa" id="OCoisaBotao"><input type="button" value="Coisa" id="Button_OCoisa"></a>
             </div>
             <div class="Hero3">
-                <img src="./Imagens/MulherInvisivel_New.png"  class="IMGMulherInvisivel">
+                <div id="sobreMulherInvisivel"><img src="./Imagens/MulherInvisivel_New.png" class="IMGMulherInvisivel">
+                </div>
                 <a href="Pag1_MulherInvisivel" id="MulherInvisiveBotao"><input type="button" value="Mulher-Invisivel"
                         id="Button_MulherInvisivel"></a>
             </div>
             <div class="Hero4">
-                <img src="./Imagens/TochaHumanaNormal.png"  class="IMGTochaHumana">
+                <div id="sobreTochaHumana"><img src="./Imagens/TochaHumanaNormal.png" class="IMGTochaHumana"></div>
                 <a href="Pag1_TochaHumana" id="TochaHumanaBotao"><input type="button" value="Tocha-Humana"
                         id="Button_TochaHumana"></a>
             </div>
