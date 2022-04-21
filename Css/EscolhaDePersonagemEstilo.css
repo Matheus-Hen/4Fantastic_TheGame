@@ -1,0 +1,103 @@
+/* Css sobre o homem elastico */
+.Hero1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#IMGElastico {
+    height: 300px;
+}
+
+#Button_Elastico {
+    cursor: pointer;
+}
+
+
+/* Css sobre o O Coisa */
+.Hero2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#Button_OCoisa {
+    cursor: pointer;
+}
+
+#IMGOCoisa {
+    height: 300px;
+}
+
+
+
+/* Css sobre a Mulher-Invisivel */
+.Hero3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Button_MulherInvisivel {
+    cursor: pointer;
+}
+
+
+.IMGMulherInvisivel {
+    height: 300px;
+}
+    
+
+/* Efeito colocado sobre todos */
+
+#EmVolta {
+    cursor: pointer;
+    --glow-color: rgb(249, 246, 252);
+    --glow-spread-color: rgba(123, 255, 255, 0.781);
+    --enhanced-glow-color: rgb(54, 67, 253);
+    --btn-color: rgb(11, 108, 219);
+    border: .25em solid var(--glow-color);
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    transition: all 0.3s;
+}
+
+#EmVolta::after {
+    cursor: pointer;
+    pointer-events: none;
+    content: "";
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+#EmVolta:hover {
+    cursor: pointer;
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+#EmVolta:active {
+    cursor: pointer;
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}

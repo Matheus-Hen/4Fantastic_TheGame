@@ -1,0 +1,25 @@
+
+
+/* Css sobre o Corpo da Pagina */
+#Choice {
+    color: white;
+    text-shadow: #004D80 3px 3px;
+    text-align: center;
+}
+#Welcome {
+    color: white;
+    text-shadow: #004D80 3px 3px;
+    text-align: center;
+}
+.Personagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: nowrap;
+}
+.corpo_da_pag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

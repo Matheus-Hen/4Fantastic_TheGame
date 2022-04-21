@@ -1,0 +1,36 @@
+#IMGExplosao{
+    width: 400px;
+    
+}
+#Inicio {
+    color: white;
+    text-shadow: #004D80 3px 3px;
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+}
+#Texto{
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+#Texto1{
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.Texto_da_Fase1{
+    color: white;
+    text-align: center;
+}
+.Pergunta{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+#Resposta{
+    cursor: pointer;
+}   
+#IMGFantastic{
+    height: 300px;
+}

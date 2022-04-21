@@ -1,0 +1,32 @@
+#Inicio {
+    color: white;
+    text-shadow: #004D80 3px 3px;
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+}
+
+#Texto1{
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.Texto_da_Fase1{
+    color: white;
+    text-align: center;
+}
+#IMGAeroEspacial{
+    border-radius: 40px;
+    border-style: dashed;
+    border-color: yellow;
+    width: 500px;
+    height: 300px;
+}
+.Pergunta{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+#Resposta{
+    cursor: pointer;
+}

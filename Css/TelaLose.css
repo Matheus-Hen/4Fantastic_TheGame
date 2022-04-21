@@ -1,0 +1,48 @@
+#IMGLose {
+    width: 270px;
+    height: 300px;
+
+}
+#Inicio {
+    color: white;
+    text-shadow: #004D80 3px 3px;
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+}
+
+#Texto {
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#Texto1 {
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.Texto_da_Fase1{
+    text-align: center;
+}
+.Texto_da_TelaLose {
+    color: white;
+    text-align: center;
+}
+
+.Pergunta {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.CorpodaPag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#Button {
+    text-align: center;
+    float: left;
+}
+#Button_Inicio{cursor: pointer;}

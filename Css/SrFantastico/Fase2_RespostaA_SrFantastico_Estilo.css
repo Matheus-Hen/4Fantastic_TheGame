@@ -1,0 +1,32 @@
+#IMGExplosao{
+    width: 500px;
+    height: 300px;
+    border-radius: 40px;
+    border-style: dashed;
+    border-color: yellow;
+}
+#Inicio {
+    color: white;
+    text-shadow: #004D80 3px 3px;
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+}
+
+#Texto1{
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.Texto_da_Fase1{
+    color: white;
+    text-align: center;
+}
+.Pergunta{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+#Resposta{
+    cursor: pointer;
+}

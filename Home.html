@@ -5,47 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/Home/EstiloPagPrincipal.css">
-    <link rel="stylesheet" href="./Css/Home/EscolhaDePersonagemEstilo.css">
+    <link rel="stylesheet" href="./Css/EscolhaDePersonagemEstilo.css">
+    <link rel="stylesheet" href="./Css/EstiloPagPrincipal.css">
+    <link rel="stylesheet" href="./Css/CabecalhoEstilo.css">
     <title>4Fantastic:The Game</title>
 </head>
 
-<body>
+<div>
     <div class="cabecalho">
         <img src="./Imagens/logo.png" id="logo">
         <h1 id="Titulo">:The Game</h1>
     </div>
     <div class="corpo_da_pag">
-        <script src="RedirecionaLink.js"></script>
+        <h1 id="Welcome"></h1>
         <h1 id="Choice">
-            <script src="./User.js"></script>
-            <br>
             Escolha com qual personagem deseja jogar
         </h1>
         <div class="Personagens">
             <div class="Hero1">
-                <div id="sobreElastico"><img src="./Imagens/HomemElasticoNormal.png" class="IMGElastico"></div>
-                <input type="button" value="Senhor Fantastico" id="Button_Elastico"
-                    onclick="window.location.href = './Fases/HomemElastico/Fase1.html'">
+                <div id="EmVolta">
+                    <img src="./Imagens/HomemElasticoNormal.png" id="IMGElastico"
+                        alt="Imagem do homem elastico com os braços para baixo">
+                </div>
+                <button id="Button_Elastico" >Sr Fantastico</button>
+                
             </div>
             <div class="Hero2">
-                <div id="sobreOCoisa"><img src="./Imagens/OCoisaVestido.png" class="IMGOCoisa"></div>
-                <a href="Pag1_OCoisa" id="OCoisaBotao"><input type="button" value="Coisa" id="Button_OCoisa"></a>
-            </div>
-            <div class="Hero3">
-                <div id="sobreMulherInvisivel"><img src="./Imagens/MulherInvisivel_New.png" class="IMGMulherInvisivel">
+                <div id="EmVolta">
+                    <img src="./Imagens/OCoisaVestido.png" id="IMGOCoisa">
                 </div>
-                <a href="Pag1_MulherInvisivel" id="MulherInvisiveBotao"><input type="button" value="Mulher-Invisivel"
-                        id="Button_MulherInvisivel"></a>
+                <button id="Button_OCoisa">Coisa</button>
             </div>
-            <div class="Hero4">
-                <div id="sobreTochaHumana"><img src="./Imagens/TochaHumanaNormal.png" class="IMGTochaHumana"></div>
-                <a href="Pag1_TochaHumana" id="TochaHumanaBotao"><input type="button" value="Tocha-Humana"
-                        id="Button_TochaHumana"></a>
+
+            <div class="Hero3">
+                <div id="EmVolta">
+                    <img src="./Imagens/MulherInvisivel_New.png" id="IMGMulherInvisivel">
+                </div>
+                <button id="Button_MulherInvisivel">Mulher Invisivel</button>
             </div>
+            <script src="./Javascript/RedirecionaLink.js"></script>
         </div>
     </div>
-    <div class="rodape"></div>
+</div>
+</div>
+</div>
+<div class="rodape"></div>
 </body>
 
 </html>
