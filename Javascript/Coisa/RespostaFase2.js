@@ -11,5 +11,5 @@ function VerificaResposta() {
     }
 }
 function VoltaHome(){
-    location.href = "../Home.html"
+    location.href = "../index.html"
 }
